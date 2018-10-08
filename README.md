@@ -27,11 +27,11 @@ a linear binary classification model using one-vs-rest scheme.
 
 Parameters:
 
-lbfgs is the optimization method for finding a minimum of the objective
-function.
-The loss minimised is the Multinomial Loss fit across the entire probability distribution.
-So the objective function is Multinomila Logistic Loss function.
-Default l2 regularization is used for lbfgs.
+- lbfgs is the optimization method for finding a minimum of the objective
+  function.
+- The loss minimised is the Multinomial Loss fit across the entire probability distribution.
+  So the objective function is Multinomila Logistic Loss function.
+- Default l2 regularization is used for lbfgs.
 
 Just for comparison purposes C-Support Vector Classification model is used.
 But the best result I got from SVM model matches the one from Logistic Regression model used
@@ -39,10 +39,10 @@ before.
 
 Parameters:
 
-Default kernel used is RBF.
-C is the penalty parameter - 0.009. This parameter controls the width of the
-margin and hence tune the bias-variance tradeoff.
-Kernel coeff is auto.
+- Default kernel used is RBF.
+- C is the penalty parameter - 0.009. This parameter controls the width of the
+  margin and hence tune the bias-variance tradeoff.
+- Kernel coeff is auto.
 
 Since there is no difference between the Logistic Regression model and the SVM
 model I went with the Logistic Regression model. 
