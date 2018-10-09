@@ -40,12 +40,14 @@ before.
 Parameters:
 
 - Default kernel used is RBF.
-- C is the penalty parameter - 0.009. This parameter controls the width of the
+- C is the penalty parameter - 100. This parameter controls the width of the
   margin and hence tune the bias-variance tradeoff.
+- Gamma is 0.0001
 - Kernel coeff is auto.
 
-Since there is no difference between the Logistic Regression model and the SVM
-model I went with the Logistic Regression model. 
+Since SVC model gives microscopically better result than Logistic Regression model,
+model I went with the SVC model. For all practical purposes the results will be
+similar as is obvious from the accuracy scores. 
 
 
 
